@@ -1,0 +1,39 @@
+body {
+    font-family: helvetica, arial, _sans, sans;
+    font-size: 16px;
+    padding: 1em;
+    min-width: 500px;
+    min-height: 375px;
+    color: #333;
+}
+li { 
+    padding: 0.5em 1em;
+    font-size: 0.85rem;
+    color: #999;
+}
+.domainName {
+    color: #486b83;
+}
+.surfTime {
+    color: #333;
+}
+li:nth-child(even) {
+    background-color: #f6f6ff;
+}
+#histList {
+    max-height: 300px;
+    overflow: auto;
+}
+#totalTime {
+    margin-bottom: 1em;
+}
+
+#toolbar p {
+    float: left;
+    margin-right: 2em;
+    color: #666;
+}
+
+.dateChanger {
+    cursor: pointer;
+}
